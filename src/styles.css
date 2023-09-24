@@ -1,0 +1,69 @@
+body {
+    background-color: wheat;
+}
+
+h1, h2, p, li {
+    color: rgb(68, 3, 3);
+}
+
+h1 {
+    font-size: larger;
+    margin: 30px;
+}
+
+span {
+    color: brown;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.perfume-container {
+    display: flex;
+    align-items: center;
+}
+
+.perfume-container ul {
+    margin-left: 0;
+}
+
+.perfume-container .price {
+    margin: 100px;
+}
+
+#quantity {
+    width: 50px;
+    margin: 30px;
+}
+
+.quantity-btn {
+    margin: 5px;
+}
+
+.add {
+    margin: 50px;
+}
+
+.total {
+    margin-left: 100px;
+}
+
+footer {
+    margin: 50px;
+    align-items: center;
+}
+
+footer .back {
+    margin-right: 120px;
+}
+
+footer .proceed {
+    margin-left: 120px;
+}
