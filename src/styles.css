@@ -22,7 +22,7 @@ h1 {
     font-size: larger;
     margin: 30px;
     text-align: center;
-    font-family: cursive;
+    font-family: Concert+One;
     font-weight: bolder;
     
 }
@@ -36,7 +36,7 @@ span {
 h2 {
     font-size: large;
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family: Concert+One;
     font-weight: bold;
 }
 
@@ -48,6 +48,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     color: #FF0066;
+    font-family: Concert+One;
 }
 
 img {
@@ -133,4 +134,12 @@ footer .proceed, .back {
     color: white;
     border-radius: 3px 3px;
     box-shadow: 2px 2px grey;
+}
+
+.reference {
+    text-align: center;
+    color: #FF0066;
+    opacity: 0.7;
+    font-size: medium;
+    font-family: pacifico;
 }
