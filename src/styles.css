@@ -40,6 +40,16 @@ h2 {
     font-weight: bold;
 }
 
+.price-tag {
+    margin-left: 115px;
+}
+
+.list li {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF0066;
+}
+
 img {
     border-radius: 5px 5px;
     box-shadow: 2px 4px grey;
@@ -108,9 +118,19 @@ footer {
 }
 
 footer .back {
-    margin-right: 120px;
+    margin-right: 120px; 
 }
 
 footer .proceed {
     margin-left: 120px;
+    
+}
+
+footer .proceed, .back {
+    border: none;
+    padding: 5px;
+    background-color: #FF0066;
+    color: white;
+    border-radius: 3px 3px;
+    box-shadow: 2px 2px grey;
 }
