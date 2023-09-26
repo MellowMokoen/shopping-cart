@@ -100,7 +100,8 @@ li {
     margin: 5px;
 }
 
-.add {
+.add, .clear {
+    font-size: small;
     color: white;
     background-color: #FF0066;
     margin: 50px;
