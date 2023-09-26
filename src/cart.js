@@ -29,7 +29,7 @@ function updateTotal() {
 
     // Display the updated subtotal of all items
     let subtotalDisplay = document.querySelector(".subtotal");
-    subtotalDisplay.textContent = `R ${subTotal.toFixed(2)}`;
+    subtotalDisplay.textContent = `sub-total : R ${subTotal.toFixed(2)}`;
 }
 
 // Function to add items to the shopping cart
@@ -67,6 +67,7 @@ function addToCart(button) {
     // Display the updated total price
     updateTotal();
 }
+
 
 // Function to clear the shopping cart
 function clearCart(itemDiv) {
