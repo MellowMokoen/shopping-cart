@@ -2,9 +2,15 @@ body {
     background-color: white;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .home {
     margin-top: 30px;
     border: none;
+    box-shadow: 1px 1px grey;
     background-color: white;
     color: #FF0066;
     font-weight: bold;
@@ -27,7 +33,7 @@ h1 {
     
 }
 
-span {
+.fragrance {
     color: #FF0066;
     font-size: 30px;
     text-decoration: underline;
@@ -45,7 +51,7 @@ h2 {
 }
 
 .list li {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #FF0066;
     font-family: Concert+One;
@@ -75,7 +81,7 @@ li {
 .perfume-container ul {
     margin-left: 0;
     color: brown;
-    opacity: 0.7;
+    
 }
 
 .perfume-container .name {
@@ -98,20 +104,80 @@ li {
 
 .quantity-btn {
     margin: 5px;
+    border-radius: 4px 4px;
 }
 
 .add, .clear {
     font-size: small;
     color: white;
     background-color: #FF0066;
-    margin: 50px;
+    margin: 30px;
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px grey;
 }
 
 .total {
+    color: #FF0066;
+    font-weight: bold;
     margin-left: 100px;
+}
+
+@media(max-width: 1120px) {
+    .container {
+        width: 90%;
+    }
+
+    h1,h2,p {
+        font-size: small;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    .fragrance {
+        font-size: 20px;
+    }
+
+    .perfume-container ul, .perfume-container .name {
+        font-size: x-small;
+    }
+
+    .perfume-container .price {
+        margin: 50px;
+        font-size: xx-small;
+    }
+
+    #quantity {
+        width: 35px;
+        margin: 10px;
+    }
+
+    .quantity-btn {
+        padding: 0 3px;
+    }
+
+    .add, .clear {
+        width: 10%!important;
+        font-size: x-small;
+    }
+
+    .list li {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .price-tag {
+        margin-left: 50px;
+    }
+
+    .total {
+        font-size: x-small;
+        font-weight: bold;
+        margin-left: 10px!important;
+    }
+
 }
 
 footer {
